@@ -132,7 +132,7 @@ export default function Home() {
               <h1 className="font-semibold ">John Doe</h1>
               <span className="text-xs font-mono opacity-50">ID: 86</span>
             </div>
-            <p className="text-sm text-green-500">ALL UNIT REGROUP ON MABESPOL</p>
+            <p className="text-sm">ALL UNIT REGROUP ON MABESPOL</p>
             <div className="flex justify-between text-xs opacity-50 font-mono">
               <span>MAKO BRIMOB</span>
               <span>10.00 PM</span>

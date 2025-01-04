@@ -13,11 +13,11 @@ export default function Sidebar() {
           </div>
           <span className="text-sm">Dashboard</span>
         </Link>
-        <Link href="/incident" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
+        <Link href="/insiden" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
           <div className="group-hover:animate-pulse">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M168,152a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,152Zm-8-40H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm56-64V216a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V48A16,16,0,0,1,56,32H92.26a47.92,47.92,0,0,1,71.48,0H200A16,16,0,0,1,216,48ZM96,64h64a32,32,0,0,0-64,0ZM200,48H173.25A47.93,47.93,0,0,1,176,64v8a8,8,0,0,1-8,8H88a8,8,0,0,1-8-8V64a47.93,47.93,0,0,1,2.75-16H56V216H200Z"></path></svg>
           </div>
-          <span className="text-sm">Incident</span>
+          <span className="text-sm">Insiden</span>
         </Link>
         <Link href="/dpo" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
           <div className="group-hover:animate-pulse">
@@ -25,17 +25,23 @@ export default function Sidebar() {
           </div>
           <span className="text-sm">DPO</span>
         </Link>
-        <Link href="/vehicle" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
+        <Link href="/kendaraan" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
           <div className="group-hover:animate-pulse">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M240,104H229.2L201.42,41.5A16,16,0,0,0,186.8,32H69.2a16,16,0,0,0-14.62,9.5L26.8,104H16a8,8,0,0,0,0,16h8v80a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V184h96v16a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V120h8a8,8,0,0,0,0-16ZM69.2,48H186.8l24.89,56H44.31ZM64,200H40V184H64Zm128,0V184h24v16Zm24-32H40V120H216ZM56,144a8,8,0,0,1,8-8H80a8,8,0,0,1,0,16H64A8,8,0,0,1,56,144Zm112,0a8,8,0,0,1,8-8h16a8,8,0,0,1,0,16H176A8,8,0,0,1,168,144Z"></path></svg>
           </div>
-          <span className="text-sm">Vehicles</span>
+          <span className="text-sm">Kendaraan</span>
         </Link>
-        <Link href="/profile" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
+        <Link href="/pelayanan" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
+          <div className="group-hover:animate-pulse">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M201.89,54.66A103.43,103.43,0,0,0,128.79,24H128A104,104,0,0,0,24,128v56a24,24,0,0,0,24,24H64a24,24,0,0,0,24-24V144a24,24,0,0,0-24-24H40.36A88.12,88.12,0,0,1,190.54,65.93,87.39,87.39,0,0,1,215.65,120H192a24,24,0,0,0-24,24v40a24,24,0,0,0,24,24h24a24,24,0,0,1-24,24H136a8,8,0,0,0,0,16h56a40,40,0,0,0,40-40V128A103.41,103.41,0,0,0,201.89,54.66ZM64,136a8,8,0,0,1,8,8v40a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V136Zm128,56a8,8,0,0,1-8-8V144a8,8,0,0,1,8-8h24v56Z"></path></svg>
+          </div>
+          <span className="text-sm">Pelayanan</span>
+        </Link>
+        <Link href="/profil" className="hover:bg-[#222222] px-4 py-2 rounded-lg hover:ring-1 flex gap-4 items-center group">
           <div className="group-hover:animate-pulse">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M244.8,150.4a8,8,0,0,1-11.2-1.6A51.6,51.6,0,0,0,192,128a8,8,0,0,1-7.37-4.89,8,8,0,0,1,0-6.22A8,8,0,0,1,192,112a24,24,0,1,0-23.24-30,8,8,0,1,1-15.5-4A40,40,0,1,1,219,117.51a67.94,67.94,0,0,1,27.43,21.68A8,8,0,0,1,244.8,150.4ZM190.92,212a8,8,0,1,1-13.84,8,57,57,0,0,0-98.16,0,8,8,0,1,1-13.84-8,72.06,72.06,0,0,1,33.74-29.92,48,48,0,1,1,58.36,0A72.06,72.06,0,0,1,190.92,212ZM128,176a32,32,0,1,0-32-32A32,32,0,0,0,128,176ZM72,120a8,8,0,0,0-8-8A24,24,0,1,1,87.24,82a8,8,0,1,0,15.5-4A40,40,0,1,0,37,117.51,67.94,67.94,0,0,0,9.6,139.19a8,8,0,1,0,12.8,9.61A51.6,51.6,0,0,1,64,128,8,8,0,0,0,72,120Z"></path></svg>
           </div>
-          <span className="text-sm">Profiles</span>
+          <span className="text-sm">Profil</span>
         </Link>
       </div>
     </div>
